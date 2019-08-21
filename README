@@ -1,0 +1,24 @@
+CREATE TABLE `baiduzhidao` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `url` varchar(255) DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `keyword` varchar(255) DEFAULT NULL,
+  `question` longtext,
+  `best_answer` longtext,
+  `best_name` longtext,
+  `best_date` longtext,
+  `answers` longtext,
+  `second_questions` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+===========linux=========
+①配置环境  https://www.jianshu.com/p/26ef8a3efd19
+②在linux系统上运行爬虫时报错，应考虑关闭所有的firefox进程 ps -ef|grep firefox
+
+
+
+
+
+
